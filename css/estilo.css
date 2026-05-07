@@ -3,55 +3,157 @@
     margin: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     background-color: rgb(86, 129, 83);
 }
+
 /*************************************** HEADER**************************************/
-header{
-    height: 400px;
+header {
+    height: 300px;
 }
-#topo
-{
-    background-color:rgb(255, 255, 255);
+
+#topo {
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
-    width: 90%;
-    height: 80%;
-    text-align: center;
+    width: 1200px;
+    height: 200px;
     margin: 0 auto;
     background-size: 300px;
-    background-repeat: no-repeat;
     background-position: 50px;
-    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#topo h1{
-        font-family: "comic Neue", cursive;
-        font-style: oblique;
-        color: rgb(39, 44, 46);
-        margin-top: -150px;
-    }
 
-#pesquisa {
-    margin-top: 50px;
+#topo img {
+    width: 200px;
+    height: 200px;
 }
+
+#topo h1 {
+    font-family: "comic Neue", cursive;
+    font-style: oblique;
+    color: rgb(39, 44, 46);
+    
+}
+#pesquisa {
+    margin-top: 20px;
+}
+
 nav {
     text-align: center;
 }
-#pesquisa nav ul li{
+
+#pesquisa nav ul li {
     font-family: "comic Neue", cursive;
-    text-align: center;
     background-color: rgb(209, 230, 209);
     padding: 10px;
     border-radius: 15px;
     font-size: 20px;
     margin: 10px;
-    display: inline;
-    
-    }
-    nav a{
+    text-decoration: none;
+    list-style: none;
 }
-img
+#pesquisa nav ul
 {
-margin-top: -70px;
-margin-left: -900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
+
+#pesquisa nav a {
+    color: rgb(255, 0, 0);
+}
+
+/*************************************************main***********************************/
+
+#info {
+ background-size: 300px;
+ background-color: rgb(233, 233, 233);
+ border-radius: 30px;
+ background-position: 50px;
+ width: 1200px;
+ height: 125px;
+ text-align: center;
+ margin: 0 auto;
+ font-family: "comic Neue", cursive;
+    font-style: oblique;
+    color: rgb(39, 44, 46);
+}
+#info a
+{
+    font-size: 30px;
+    border: 20px;
+    border-color: black;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
+border-radius: 5px;
+}
+#info h1{
+    color: rgb(70, 94, 46);
+}
+#sobre
+{
+    background-size: 300px;
+ background-color: rgb(233, 233, 233);
+ border-radius: 30px;
+ width: 1200px;
+ height: 90px;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 10px;
+ font-family: "comic Neue", cursive;
+    font-style: oblique;
+    color: rgb(39, 44, 46);
+}
+#sobre h2{
+    color: rgb(70, 94, 46);
+}
+#programa
+{
+    background-size: 300px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    width: 1200px;
+    height: 125px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "comic Neue", cursive;
+       font-style: oblique;
+       color: rgb(39, 44, 46);
+       
+}
+#programa h2{
+    color: rgb(70, 94, 46);
+}
+#programa li{
+    list-style: none;
+}
+#palestrantes 
+{
+    background-size: 300px;
+ background-color: rgb(233, 233, 233);
+ border-radius: 30px;
+ width: 1200px;
+ height: 300px;
+ margin: 0 auto;
+ margin-top: 10px;
+ font-family: "comic Neue", cursive;
+    font-style: oblique;
+    color: rgb(39, 44, 46);
+    display: flex;
+}
+#palestrantes img{
+    border-radius: 200px;
+    height: 100px;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    
+}
+
+
